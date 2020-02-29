@@ -2,7 +2,7 @@ def position_taken?(board, index)
 space = "  "
 if space == "X" || "O"
   return false
-elsif space == !"X" || "0"
+else space == !"X" || "0"
   return true
   end      # code your #position_taken? method here!
 end
