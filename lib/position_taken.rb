@@ -1,8 +1,7 @@
 def position_taken?(board, index)
-space = "  "  
-if space == "X" || "O"
+if board[index] == " " || board[index] == "" || board[index] == nil
   return false
-else space != "X" || "O"
+else
   return true
-  end      # code your #position_taken? method here!
+  end   # code your #position_taken? method here!
 end
