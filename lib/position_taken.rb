@@ -1,4 +1,6 @@
+require pry
 def position_taken(board, index)
+binding.pry  
   index=input_to_index(user_input)
 
 if user_input.to_i == 2
