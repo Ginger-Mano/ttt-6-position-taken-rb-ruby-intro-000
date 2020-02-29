@@ -1,3 +1,5 @@
+require_relative './position_taken_spec.rb'
+
 def position_taken(board, index)
 
   index=input_to_index(user_input)
