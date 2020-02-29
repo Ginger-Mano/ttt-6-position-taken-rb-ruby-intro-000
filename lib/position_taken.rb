@@ -1,5 +1,4 @@
 def position_taken?(board, index)
-space = "  "
 if space == "X" || "O"
   return false
 else space != "X" || "O"
