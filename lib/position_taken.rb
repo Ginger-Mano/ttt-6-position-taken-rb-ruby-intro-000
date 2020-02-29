@@ -1,5 +1,5 @@
 def position_taken?(board, index)
-if space == " " || space == "" || space == nil
+if space == " " || board[index] == "" || board[index] == nil
   return false
 else
   return true
