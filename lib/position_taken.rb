@@ -1,11 +1,10 @@
-require "pry"
 def position_taken(board, index)
-binding.pry
+
   index=input_to_index(user_input)
 
-if user_input.to_i == 2
-  return user_input.to_i - 1 == "x"
-elsif the position is taken == !"  "
+if user_input.to_i = 2
+  return user_input.to_i - 1 = "x"
+elsif the position is taken = !"  "
   return "false"
 elsif the position is not taken == user_input
   return "true"
